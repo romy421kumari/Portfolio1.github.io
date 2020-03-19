@@ -1,0 +1,21 @@
+
+<style>
+body{ 
+background-color: yellow;
+
+
+}
+li{
+	display: inline-block;
+	text-decoration-color: white;
+}
+nav{
+	position: fixed;
+	background-color: black;
+	height: 10%
+	position: fixed;
+	width: 99%;
+}
+ul{
+	float:right;
+}</style>

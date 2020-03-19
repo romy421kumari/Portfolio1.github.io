@@ -1,0 +1,14 @@
+body{
+text-align:center;
+margin-top:80px;
+margin-bottom:10px;
+font-size:xx-large;
+background-image:url("contact.png");
+background-repeat:no-repeat;
+background-size: 800px 400px;
+background-image: linear-gradient(red, yellow, green);
+background-size: cover;
+}
+h1{
+	color: green;
+}

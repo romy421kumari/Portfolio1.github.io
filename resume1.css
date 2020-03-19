@@ -1,0 +1,76 @@
+
+#body1{
+	background-color: pink;
+}
+#body{ 
+
+background-image: url("design.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+  
+}
+#body2{
+	background-image: linear-gradient(to right, white, green );
+}
+#body3{
+	background-image: linear-gradient(to right, white, purple);
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+
+li:hover{
+	background-color: white;
+}
+#li{
+	display: inline-block;
+	
+	
+}
+#nav{
+	position: fixed;
+	background-color: black;
+	height: 10%
+	position: fixed;
+	width: 99%;
+}
+#ul{color: white;
+	float:right;
+}
+#id{
+	background-color:lightgreen;
+}
+img{
+	margin-top: 20px;
+
+
+}
+#div{
+	background-color:yellow;
+}
+#h1{
+	text-align: center;
+	font-style: bold;
+	color:white;
+
+}
+#h2{
+	text-align: center;
+	font-style: bold;
+
+
+}
+
+#katalyst{
+	background-color: yellow;
+
+}
+#animation{
+	animation: example;
+	animation-delay: 6s;
+}
