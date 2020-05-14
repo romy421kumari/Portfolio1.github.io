@@ -4,7 +4,7 @@
 }
 #body{ 
 
-background-image: url("design.jpg");
+background: black;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -25,11 +25,13 @@ background-size: cover;
 
 
 li:hover{
-	background-color: white;
+	background-color: darkgrey;
+	transform: scaleY(1.4) scaleZ(1.4);
+	border-radius: 30%;
 }
 #li{
 	display: inline-block;
-	
+	font-size: 30px;
 	
 }
 #nav{
@@ -53,12 +55,27 @@ img{
 #div{
 	background-color:yellow;
 }
-#h1{
+#h1{font-size: 70px;
+	margin-top: 70px;
 	text-align: center;
 	font-style: bold;
 	color:white;
 
+
 }
+
+#h10{text-align: center;
+	font-style: bold;
+	color:white;
+	font-size: 30px;
+}
+#h9{text-align: center;
+	font-style: bold;
+	color:white;
+	font-size: 40px;
+	margin-top: 70px;
+}
+
 #h2{
 	text-align: center;
 	font-style: bold;
